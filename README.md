@@ -19,6 +19,7 @@
 - [Usage](#usage)
 - [Feedback](#feedback)
 - [Contributing](#contributing)
+- [Contact Me](#contact-me)
 - [License](#license)
 
 ---
@@ -66,6 +67,31 @@ Welcome to the Rating-Feedback Website! This web application provides a platform
 
 Your thoughts matter! If you encounter any issues or have ideas for improvements, please [open an issue](https://github.com/your-username/rating-feedback-website/issues).
 
+---
+## Contact Me
+
+If you have any questions, suggestions, or feedback, feel free to reach out to me:
+
+- **Email:** 21cse058tamilselvan@gmail.com
+- **LinkedIn:** [Your LinkedIn Profile](https://www.linkedin.com/in/vtamilselvanbe)
+
+---
+
+## App Script for Sending Notifications
+
+Here's a sample Google Apps Script code snippet that you can use to send notifications when new feedback is submitted:
+
+``javascript``
+function sendNotification(subject, message) {
+  // Replace with your email address
+  var recipient = 'your.email@example.com';
+  
+  MailApp.sendEmail({
+    to: recipient,
+    subject: subject,
+    body: message
+  });
+} 
 ---
 
 ## Contributing

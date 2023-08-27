@@ -1,0 +1,236 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(0, 0, 0);
+    color: white;
+    font-family: 'poppins', sans-serif;
+}
+
+.container {
+    padding: 10px 10%;
+}
+
+.wrapper {
+    border-radius: 8px;
+    padding: 20px;
+    width: auto;
+}
+
+.sub-title {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.sub-content {
+    letter-spacing: 4px;
+    margin: 10px;
+    margin-bottom: 25px;
+}
+
+/* Rating Stars */
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.star {
+    font-size: 38px;
+    color: gold;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.star.active {
+    color: #f39c12;
+}
+
+/* Form Fields */
+.name,
+.opinion {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    resize: vertical;
+}
+
+/* Buttons */
+.btn-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+form textarea,
+form input {
+    font-size: x-large;
+    color: #fff;
+    border-radius: 6px;
+    border: 1px solid #ababab;
+    background: rgba(255, 255, 255, 0.1);
+    font-family: monospace;
+}
+
+.btn.submit,
+.btn.view-feedback {
+    background-color: #ff004f;
+    color: #fff;
+    border-radius: 5px;
+    padding: 12px 35px;
+    font-size: large;
+}
+
+
+#reviewContainer {
+    margin-top: 20px;
+    border-top: 1px solid #616161;
+    padding-top: 20px;
+}
+
+.review {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    background: rgba(70, 70, 70, 0.384);
+}
+
+.review p {
+    font-size: 14px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+.review p b {
+    color: #ffffff;
+    margin-right: 5px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff004f;
+    border-radius: 5px;
+}
+
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px 5%;
+    }
+
+    .sub-title {
+        font-size: 26px;
+    }
+
+    .sub-content {
+        font-size: 14px;
+        letter-spacing: 1px;
+        margin: 10px 0px 20px;
+        font-weight: 100;
+    }
+
+    .wrapper {
+        padding: 10px;
+    }
+
+    .star {
+        font-size: 24px;
+    }
+
+    label {
+        font-size: 16px;
+    }
+
+    input[type="text"],
+    textarea {
+        font-size: 12px;
+    }
+
+    .btn.submit,
+    .btn.view-feedback {
+        font-size: medium;
+    }
+
+    .review {
+        padding: 8px;
+        margin-bottom: 8px;
+    }
+
+    .review p {
+        font-size: 14px;
+    }
+}
+
+::-webkit-scrollbar {
+width: 8px;
+height: 10px;
+}
+
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+background: #ff004f;
+border-radius: 5px;
+}
+
+#notification {
+position: fixed;
+top: 20px;
+right: 20px;
+background-color: #f82165;
+border: 1px solid #ccc;
+padding: 10px;
+display: none;
+box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+#notification-message {
+display: inline-block;
+margin-right: 10px;
+
+}
+
+#close-notification {
+background: none;
+border: none;
+cursor: pointer;
+font-size: 18px;
+}  

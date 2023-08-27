@@ -81,7 +81,7 @@ If you have any questions, suggestions, or feedback, feel free to reach out to m
 
 Here's a sample Google Apps Script code snippet that you can use to send notifications when new feedback is submitted:
 
-``javascript``
+```javascript
 function sendNotification(subject, message) {
   // Replace with your email address
   var recipient = 'your.email@example.com';
@@ -90,7 +90,8 @@ function sendNotification(subject, message) {
     subject: subject,
     body: message
   });
-} 
+}
+```
 
 ---
 

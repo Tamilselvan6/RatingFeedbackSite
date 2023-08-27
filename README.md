@@ -150,5 +150,3 @@ We invite you to contribute to this project and make it even better! Here's how:
 This project is licensed under the [MIT License](LICENSE).
 
 ---
-
-**Note:** Customize this content to match your project's specifics and style. Use formatting, headers, and emphasis to create an engaging and informative README for your Rating-Feedback Website.

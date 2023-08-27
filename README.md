@@ -85,13 +85,13 @@ Here's a sample Google Apps Script code snippet that you can use to send notific
 function sendNotification(subject, message) {
   // Replace with your email address
   var recipient = 'your.email@example.com';
-  
   MailApp.sendEmail({
     to: recipient,
     subject: subject,
     body: message
   });
 } 
+
 ---
 
 ## Contributing
